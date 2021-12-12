@@ -58,7 +58,7 @@ console.log(pokemon.all());
 
 
 //create server
-const PORT = 4000;
+const PORT = process.env.PORT;
 const hostname= 'localhost'
 const home = fs.readFileSync('./index.html',"utf8");
 
