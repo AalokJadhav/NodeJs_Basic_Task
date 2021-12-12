@@ -81,7 +81,7 @@ const server = http.createServer((req,res,next) => {
 }
 });
 
-server.listen(PORT,hostname,() => {
+server.listen(PORT,() => {
     console.log(`server is running..!`);
 })
 
