@@ -59,7 +59,6 @@ console.log(pokemon.all());
 
 //create server
 const PORT = process.env.PORT;
-const hostname= 'localhost'
 const home = fs.readFileSync('./index.html',"utf8");
 
 // current file path
@@ -83,6 +82,6 @@ const server = http.createServer((req,res,next) => {
 });
 
 server.listen(PORT,hostname,() => {
-    console.log(`server is running on http://${hostname}:${PORT}`);
+    console.log(`server is running..!`);
 })
 
